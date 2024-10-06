@@ -83,7 +83,6 @@ export class WhoisService {
   }
 
   private formatContactInfo(whoisRecord: any) {
-    console.log(whoisRecord);
     return {
       registrantName: whoisRecord.registrant.name,
       technicalContactName: whoisRecord.technicalContact.name,
