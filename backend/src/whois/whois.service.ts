@@ -71,7 +71,6 @@ export class WhoisService {
   }
 
   private formatDomainInfo(whoisRecord: any) {
-    console.log(whoisRecord);
     return {
       domainName: whoisRecord.domainName,
       registrar: whoisRecord.registrarName,

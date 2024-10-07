@@ -6,7 +6,7 @@ import { MatInputModule } from "@angular/material/input";
 import { MatSelectModule } from "@angular/material/select";
 import { MatButtonModule } from "@angular/material/button";
 import { LoadingTemplate } from "../info-loading/info-loading.component";
-import { InfoTable } from "../info-dropdown/info-table.component";
+import { InfoTable } from "../info-table/info-table.component";
 import { MatSnackBar } from "@angular/material/snack-bar";
 @Component({
   selector: "app-domain-lookup",
